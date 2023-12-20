@@ -5,14 +5,14 @@ export default defineConfig({
   title: "Typescript Handbook",
   description: "Typescript handbook that easy to read",
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
-    nav: [{ text: "Home", link: "/" }],
+    search: {
+      provider: "local",
+    },
 
     sidebar: [
       {
         items: [
           { text: "The Basics", link: "/basic-types" },
-          { text: "Everyday Types", link: "/everyday-types" },
           { text: "Everyday Types", link: "/everyday-types" },
           { text: "Narrowing", link: "/narrowing" },
           { text: "More On Function", link: "/functions" },
@@ -40,13 +40,24 @@ export default defineConfig({
       },
     ],
 
-    // socialLinks: [
-    //   { icon: "github", link: "https://github.com/vuejs/vitepress" },
-    // ],
+    socialLinks: [
+      {
+        icon: "github",
+        link: "https://github.com/afrijaldz/typescript-handbook",
+      },
+    ],
     aside: false,
-  },
-  rewrites: {
-    "docs/handbook/2/basic-types.html": "docs/handbook/2/Basics.md",
+    editLink: {
+      pattern:
+        "https://github.com/afrijaldz/typescript-handbook/edit/main/:path",
+    },
+    lastUpdated: {
+      text: "Updated at",
+      formatOptions: {
+        dateStyle: "full",
+        timeStyle: "medium",
+      },
+    },
   },
   cleanUrls: true,
 });
