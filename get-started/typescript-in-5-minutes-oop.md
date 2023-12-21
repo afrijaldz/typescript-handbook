@@ -2,6 +2,8 @@
 title: TypeScript for Java/C# Programmers
 ---
 
+# TypeScript for Java/C# Programmers
+
 TypeScript is a popular choice for programmers accustomed to other languages with static typing, such as C# and Java.
 
 TypeScript's type system offers many of the same benefits, such as better code completion, earlier detection of errors, and clearer communication between parts of your program.

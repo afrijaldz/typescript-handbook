@@ -2,6 +2,8 @@
 title: TypeScript for Functional Programmers
 ---
 
+# TypeScript for Functional Programmers
+
 TypeScript began its life as an attempt to bring traditional object-oriented types
 to JavaScript so that the programmers at Microsoft could bring
 traditional object-oriented programs to the web. As it has developed, TypeScript's type

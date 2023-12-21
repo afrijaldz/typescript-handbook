@@ -2,6 +2,8 @@
 title: Mapped Types
 ---
 
+# Mapped Types
+
 When you don't want to repeat yourself, sometimes a type needs to be based on another type.
 
 Mapped types build on the syntax for index signatures, which are used to declare the types of properties which have not been declared ahead of time:
@@ -19,7 +21,7 @@ const conforms: OnlyBoolsAndHorses = {
 };
 ```
 
-A mapped type is a generic type which uses a union of `PropertyKey`s (frequently created [via a `keyof`](/indexed-access-types.html)) to iterate through keys to create a type:
+A mapped type is a generic type which uses a union of `PropertyKey`s (frequently created [via a `keyof`](/type-manipulation/indexed-access-types.html)) to iterate through keys to create a type:
 
 ```ts twoslash
 type OptionsFlags<Type> = {
@@ -90,7 +92,7 @@ type MappedTypeWithNewProperties<Type> = {
 };
 ```
 
-You can leverage features like [template literal types](/template-literal-types.html) to create new property names from prior ones:
+You can leverage features like [template literal types](/type-manipulation/template-literal-types.html) to create new property names from prior ones:
 
 ```ts twoslash
 type Getters<Type> = {
@@ -142,7 +144,7 @@ type Config = EventConfig<SquareEvent | CircleEvent>;
 
 ### Further Exploration
 
-Mapped types work well with other features in this type manipulation section, for example here is [a mapped type using a conditional type](/conditional-types.html) which returns either a `true` or `false` depending on whether an object has the property `pii` set to the literal `true`:
+Mapped types work well with other features in this type manipulation section, for example here is [a mapped type using a conditional type](/type-manipulation/conditional-types.html) which returns either a `true` or `false` depending on whether an object has the property `pii` set to the literal `true`:
 
 ```ts twoslash
 type ExtractPII<Type> = {

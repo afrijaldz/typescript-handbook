@@ -1,3 +1,9 @@
+---
+title: The Basics
+---
+
+# The Basics
+
 Each and every value in JavaScript has a set of behaviors you can observe from running different operations.
 That sounds abstract, but as a quick example, consider some operations we might run on a variable named `message`.
 

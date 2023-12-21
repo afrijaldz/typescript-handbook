@@ -2,6 +2,8 @@
 title: Classes
 ---
 
+# Classes
+
 <blockquote class='bg-reading'>
   <p>Background Reading:<br /><a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes'>Classes (MDN)</a></p>
 </blockquote>

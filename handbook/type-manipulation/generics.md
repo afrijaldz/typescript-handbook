@@ -2,6 +2,8 @@
 title: Generics
 ---
 
+# Generics
+
 A major part of software engineering is building components that not only have well-defined and consistent APIs, but are also reusable.
 Components that are capable of working on the data of today as well as the data of tomorrow will give you the most flexible capabilities for building up large software systems.
 
@@ -245,7 +247,7 @@ console.log(stringNumeric.add(stringNumeric.zeroValue, "test"));
 
 Just as with interface, putting the type parameter on the class itself lets us make sure all of the properties of the class are working with the same type.
 
-As we cover in [our section on classes](/classes.html), a class has two sides to its type: the static side and the instance side.
+As we cover in [our section on classes](/get-started/classes.html), a class has two sides to its type: the static side and the instance side.
 Generic classes are only generic over their instance side rather than their static side, so when working with classes, static members can not use the class's type parameter.
 
 ## Generic Constraints
@@ -371,7 +373,7 @@ createInstance(Lion).keeper.nametag;
 createInstance(Bee).keeper.hasMask;
 ```
 
-This pattern is used to power the [mixins](/docs/handbook/mixins.html) design pattern.
+This pattern is used to power the [mixins](/reference/mixins.html) design pattern.
 
 ## Generic Parameter Defaults
 

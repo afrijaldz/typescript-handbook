@@ -2,6 +2,8 @@
 title: Type Declarations
 ---
 
+# Type Declarations
+
 Throughout the sections you've read so far, we've been demonstrating basic TypeScript concepts using the built-in functions present in all JavaScript runtimes.
 However, almost all JavaScript today includes many libraries to accomplish common tasks.
 Having types for the parts of your application that _aren't_ your code will greatly improve your TypeScript experience.

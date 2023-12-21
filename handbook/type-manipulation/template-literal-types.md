@@ -2,7 +2,9 @@
 title: Template Literal Types
 ---
 
-Template literal types build on [string literal types](/everyday-types.html#literal-types), and have the ability to expand into many strings via unions.
+# Template Literal Types
+
+Template literal types build on [string literal types](/handbook/everyday-types.html#literal-types), and have the ability to expand into many strings via unions.
 
 They have the same syntax as [template literal strings in JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals), but are used in type positions.
 When used with concrete literal types, a template literal produces a new string literal type by concatenating the contents.

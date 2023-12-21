@@ -2,6 +2,8 @@
 title: TypeScript Tooling in 5 minutes
 ---
 
+# TypeScript Tooling in 5 minutes
+
 Let's get started by building a simple web application with TypeScript.
 
 ## Installing TypeScript

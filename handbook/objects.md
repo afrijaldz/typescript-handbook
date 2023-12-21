@@ -2,6 +2,8 @@
 title: Object Types
 ---
 
+# Object Types
+
 In JavaScript, the fundamental way that we group and pass around data is through objects.
 In TypeScript, we represent those through _object types_.
 

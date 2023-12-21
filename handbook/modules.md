@@ -2,6 +2,8 @@
 title: Modules
 ---
 
+# Modules
+
 JavaScript has a long history of different ways to handle modularizing code.
 Having been around since 2012, TypeScript has implemented support for a lot of these formats, but over time the community and the JavaScript specification has converged on a format called ES Modules (or ES6 modules). You might know it as the `import`/`export` syntax.
 

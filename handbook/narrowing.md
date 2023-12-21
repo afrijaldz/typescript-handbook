@@ -2,6 +2,8 @@
 title: Narrowing
 ---
 
+# Narrowing
+
 Imagine we have a function called `padLeft`.
 
 ```ts twoslash

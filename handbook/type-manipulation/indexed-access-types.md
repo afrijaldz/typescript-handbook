@@ -2,6 +2,8 @@
 title: Indexed Access Types
 ---
 
+# Indexed Access Types
+
 We can use an _indexed access type_ to look up a specific property on another type:
 
 ```ts twoslash

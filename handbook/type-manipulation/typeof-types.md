@@ -2,6 +2,8 @@
 title: Typeof Type Operator
 ---
 
+# Typeof Type Operator
+
 ## The `typeof` type operator
 
 JavaScript already has a `typeof` operator you can use in an _expression_ context:

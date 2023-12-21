@@ -2,6 +2,8 @@
 title: TypeScript for the New Programmer
 ---
 
+# TypeScript for the New Programmer
+
 Congratulations on choosing TypeScript as one of your first languages — you're already making good decisions!
 
 You've probably already heard that TypeScript is a "flavor" or "variant" of JavaScript.
