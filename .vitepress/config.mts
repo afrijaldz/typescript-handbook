@@ -90,7 +90,7 @@ export default defineConfig({
         text: "Reference",
         items: [
           { text: "Utility Types", link: "/reference/utility-types" },
-          { text: "Cheatsheet", link: "/" },
+          { text: "Cheatsheet", link: "/reference/cheatsheet" },
           { text: "Decorators", link: "/reference/decorators" },
           {
             text: "Declaration Merging",
