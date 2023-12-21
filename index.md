@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Typescript Handbook"
   # text: ""
-  tagline: Typescript docs that easy to read, build with vitepress with minimal UI distraction
+  tagline: Typescript docs that are easy to read, built with VitePress with minimal UI distraction
   actions:
     - theme: brand
       text: Getting Started
