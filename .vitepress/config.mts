@@ -11,31 +11,82 @@ export default defineConfig({
 
     sidebar: [
       {
+        text: "Getting Started",
         items: [
-          { text: "The Basics", link: "/basic-types" },
-          { text: "Everyday Types", link: "/everyday-types" },
-          { text: "Narrowing", link: "/narrowing" },
-          { text: "More On Function", link: "/functions" },
-          { text: "Object Types", link: "/objects" },
+          {
+            text: "TS for the New Programmer",
+            link: "/get-started/typescript-from-scratch",
+          },
+          {
+            text: "TS for JS Programmer",
+            link: "/get-started/typescript-in-5-minutes",
+          },
+          {
+            text: "TS for Java/C# Programmer",
+            link: "/get-started/typescript-in-5-minutes-oop",
+          },
+          {
+            text: "TS for Functional Programmer",
+            link: "/get-started/typescript-in-5-minutes-func",
+          },
+          {
+            text: "TypeSscript Tooling in 5 Minutes",
+            link: "/get-started/typescript-tooling-in-5-minutes",
+          },
+        ],
+        collapsed: false,
+      },
+      {
+        text: "Handbook",
+        items: [
+          { text: "The Basics", link: "/handbook/basic-types" },
+          { text: "Everyday Types", link: "/handbook/everyday-types" },
+          { text: "Narrowing", link: "/handbook/narrowing" },
+          { text: "More On Function", link: "/handbook/functions" },
+          { text: "Object Types", link: "/handbook/objects" },
           {
             text: "Type Manipulation",
             items: [
-              { text: "Creating Types from Types", link: "/types-from-types" },
-              { text: "Generics", link: "/generics" },
-              { text: "Keyof Type Operator", link: "/keyof-types" },
-              { text: "Typeof Type Operator", link: "/typeof-types" },
-              { text: "Typeof Type Operator", link: "/typeof-types" },
-              { text: "Indexed Access Types", link: "/indexed-access-types" },
-              { text: "Conditional Types", link: "/conditional-types" },
-              { text: "Mapped Types", link: "/mapped-types" },
+              {
+                text: "Creating Types from Types",
+                link: "/handbook/type-manipulation/types-from-types",
+              },
+              {
+                text: "Generics",
+                link: "/handbook/type-manipulation/generics",
+              },
+              {
+                text: "Keyof Type Operator",
+                link: "/handbook/type-manipulation/keyof-types",
+              },
+              {
+                text: "Typeof Type Operator",
+                link: "/handbook/type-manipulation/typeof-types",
+              },
+              {
+                text: "Typeof Type Operator",
+                link: "/handbook/type-manipulation/typeof-types",
+              },
+              {
+                text: "Indexed Access Types",
+                link: "/handbook/type-manipulation/indexed-access-types",
+              },
+              {
+                text: "Conditional Types",
+                link: "/handbook/type-manipulation/conditional-types",
+              },
+              {
+                text: "Mapped Types",
+                link: "/handbook/type-manipulation/mapped-types",
+              },
               {
                 text: "Template Literal Types",
-                link: "/template-literal-types",
+                link: "/handbook/type-manipulation/template-literal-types",
               },
             ],
           },
-          { text: "Classes", link: "/classes" },
-          { text: "Modules", link: "/modules" },
+          { text: "Classes", link: "/handbook/classes" },
+          { text: "Modules", link: "/handbook/modules" },
         ],
       },
     ],
