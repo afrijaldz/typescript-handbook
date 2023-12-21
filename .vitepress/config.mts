@@ -64,10 +64,6 @@ export default defineConfig({
                 link: "/handbook/type-manipulation/typeof-types",
               },
               {
-                text: "Typeof Type Operator",
-                link: "/handbook/type-manipulation/typeof-types",
-              },
-              {
                 text: "Indexed Access Types",
                 link: "/handbook/type-manipulation/indexed-access-types",
               },
@@ -88,6 +84,44 @@ export default defineConfig({
           { text: "Classes", link: "/handbook/classes" },
           { text: "Modules", link: "/handbook/modules" },
         ],
+        collapsed: false,
+      },
+      {
+        text: "Reference",
+        items: [
+          { text: "Utility Types", link: "/reference/utility-types" },
+          { text: "Cheatsheet", link: "/" },
+          { text: "Decorators", link: "/reference/decorators" },
+          {
+            text: "Declaration Merging",
+            link: "/reference/declaration-merging",
+          },
+          { text: "Enums", link: "/reference/enums" },
+          {
+            text: "Iterators and Generators",
+            link: "/reference/iterators-and-generators",
+          },
+          { text: "JSX", link: "/reference/jsx" },
+          { text: "Mixins", link: "/reference/mixins" },
+          { text: "Namespaces", link: "/reference/namespaces" },
+          {
+            text: "Namespaces and Modules",
+            link: "/reference/namespaces-and-modules",
+          },
+          { text: "Symbols", link: "/reference/symbols" },
+          {
+            text: "Triple-Slashes Directives",
+            link: "/reference/triple-slash-directives",
+          },
+          { text: "Type Compatibility", link: "/reference/type-compatibility" },
+          { text: "Type Inference", link: "/reference/type-inference" },
+          {
+            text: "Variable Declarations",
+            link: "/reference/variable-declarations",
+          },
+          { text: "Advanced Types", link: "/reference/advanced-types" },
+        ],
+        collapsed: false,
       },
     ],
 
